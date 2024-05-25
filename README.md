@@ -29,4 +29,29 @@ A plot showing the mean squared error in the estimation of π as the number of p
 
 A boxplot showing the distribution of π estimates after 50 series for different numbers of points.
 
-## Travel Salesman Problem solved using Genetic Algorithm
+## Traveling Salesman Problem solved using Genetic Algorithm
+
+This project contains a Python implementation of a genetic algorithm which solve Traveling Salesman Problem.
+
+### Problem Descripiton
+
+TSP asks the questionL _"Given a list of cities and the pairwise distances, what is the shortest possible route that visits each city exactly once and returns to the starting city?"_
+
+### Parameters of the mail function
+
+- `num_cities`: Number of cities in the TSP problem instance.
+- `num_individuals`: Number of individuals in the population.
+- `generations`: Number of generations.
+- `mutation_rate`: Probability of mutation for each individual (default: 0.02).
+- `crossover_rate`: Probability of crossover for each pair of individuals (default: 0.8).
+- `area_size`: Size of the area within which cities are randomly distributed (default: 200).
+- `selection_type`: Type of selection mechanism ('roulette' or 'ranking').
+
+### Visualization functions
+
+#### Visualizations are provided for:
+
+1. **Shortest Route in Each Population**: Shows the shortest route found in generation during the algorithm's execution.
+2. **Improvement of Fitness Function**: Illustrates the improvement of the fitness value (shortest route length) across generations.
+
+Eperimental approach - by changing the parameters of the algorithm, the aim was to optimize the solutions. Finally, presented a graph of the values ​​of the quality function in all generations and a histogram of route lengths.
